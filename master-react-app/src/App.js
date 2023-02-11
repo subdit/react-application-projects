@@ -27,7 +27,7 @@ function App() {
 
         <div className='box'>
           <p>{count}</p>
-          <button onClick={handleCount} className='add'>
+          <button onClick={() => setCount(count + 1)} className='add'>
             ADD
           </button>
           <button onClick={() => handleSub()} className='sub'>

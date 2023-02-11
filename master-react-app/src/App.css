@@ -136,10 +136,12 @@ button {
 
 button.add {
   background-color: #18978f;
+  color: aliceblue;
 }
 
 button.sub {
   background-color: #eb4747;
+  color: #ffffff;
 }
 
 button.reset {
